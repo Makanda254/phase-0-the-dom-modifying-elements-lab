@@ -7,7 +7,9 @@ newHeader.setAttribute("id", "victory");
 newHeader.textContent="Victor is the champion";
 document.body.append(newHeader);
 
-document.querySelector('main#main').remove();
+const main = document.getElementById('main');
+main.remove();
+
 
 
 
